@@ -385,6 +385,15 @@ p{
     text-align: justify;
     padding: 10px;
 }
+.card-text{
+    font-size: 12px;
+}
+.thumbnailImage{
+    padding-top: 10px;
+}
+.card-title{
+    font-size: 15px;
+}
 
 .linkImage{
     height: 100px;
