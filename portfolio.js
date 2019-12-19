@@ -32,7 +32,5 @@ $("#contactBtn").click(function() {
         'slow');
     console.log("scroll")
 });
-// $("a.link").on("click",function(){
-//     window.open('www.yourdomain.com','_blank');
-// });
+
 

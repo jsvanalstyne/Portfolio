@@ -80,9 +80,9 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(https://www.alabamapioneers.com/wp-content/uploads/2014/09/cat-computer-lolworm.jpg);
-    background-position: center top;
-	background-size:cover;
+    background-image: url("images/JVHeadshot.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .navTrigger {
@@ -386,7 +386,10 @@ p{
     padding: 10px;
 }
 
-
+.linkImage{
+    height: 100px;
+    width: 150px;
+}
 
 
 
