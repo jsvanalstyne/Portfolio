@@ -357,7 +357,7 @@ body {
     background-color: #111;
 }
 #aboutMe{
-    color: rgb(22, 22, 22);
+    color: #383131;
     box-sizing: content-box;
     height: 500px;
     width: 100%;
@@ -370,6 +370,7 @@ body {
     position: relative;
     text-align: center;
     z-index: 10;
+    color: #383131;
 }
 .contactLinks{
     margin-left: 300px;
@@ -413,8 +414,10 @@ p{
 	padding-right:15%;
 	font-size: 20px;
 }
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
+
+.btn{
+    background-color: #699AE4 !important;
+}
+.btnLinks{
+    padding-bottom: 15px;
 }
