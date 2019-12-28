@@ -374,7 +374,8 @@ body {
 }
 .contactLinks{
     /* margin-left: 300px; */
-    width: 300px !important;
+    font-size: 150px !important;
+    color: #699AE4 !important
 }
 
 #contactMe{
