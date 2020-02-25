@@ -20,15 +20,21 @@ $("#aboutBtn").click(function() {
         'slow');
     console.log("scroll")
 });
+$("#skillsBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#skills").offset().top -100},
+        'slow');
+    console.log("scroll")
+});
 $("#portfolioBtn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top -100},
+        scrollTop: $("#portfolio").offset().top -110},
         'slow');
     console.log("scroll")
 });
 $("#contactBtn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#contactMe").offset().top -350},
+        scrollTop: $("#contactMe").offset().top -550},
         'slow');
     console.log("scroll")
 });
