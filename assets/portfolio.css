@@ -374,11 +374,15 @@ body {
     padding-bottom: 30px;
     
 }
-#portfolio{
+.portfolio{
     position: relative;
     text-align: center;
     z-index: 10;
     color: #383131;
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
 }
 .contactLinks{
     /* margin-left: 300px; */
@@ -470,4 +474,17 @@ p{
     height: 100%;
     width: 100%;
 }
-  
+@media all and (max-width:700px){
+	.myP {
+		padding:2%;
+	}
+}
+.portfolioCards{
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    color: #383131;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
