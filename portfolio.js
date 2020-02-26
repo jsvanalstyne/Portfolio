@@ -28,7 +28,7 @@ $("#skillsBtn").click(function() {
 });
 $("#portfolioBtn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top -95},
+        scrollTop: $(".portfolio").offset().top -95},
         'slow');
     console.log("scroll")
 });
