@@ -356,7 +356,7 @@ body {
     padding: 0;
     background-color: #111;
 }
-#aboutMe{
+.aboutMe{
     color: #383131;
     box-sizing: content-box;
     height: 500px;
@@ -366,16 +366,13 @@ body {
     padding: 20px;
     text-align: center;
     overflow: scroll;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
    
 }
 .aboutInfo{
-    position: relative;
-    text-align: center;
-    z-index: 10;
-    color: #383131;
+    text-align: center!important;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

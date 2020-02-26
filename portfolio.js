@@ -16,7 +16,7 @@ $(window).scroll(function() {
 
 $("#aboutBtn").click(function() {
     $('html,body').animate({
-        scrollTop: $("#aboutMe").offset().top -85},
+        scrollTop: $(".aboutMe").offset().top -85},
         'slow');
     console.log("scroll")
 });
