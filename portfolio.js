@@ -34,7 +34,7 @@ $("#portfolioBtn").click(function() {
 });
 $("#contactBtn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#contactMe").offset().top -550},
+        scrollTop: $("#contactMe").offset().top -400},
         'slow');
     console.log("scroll")
 });
