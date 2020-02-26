@@ -379,7 +379,7 @@ body {
     text-align: center;
     z-index: 10;
     color: #383131;
-    
+
     /* display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly; */
@@ -443,6 +443,10 @@ p{
     transform: scale(1.1); 
   
   }
+  /* .btnLinks:hover {
+    transform: scale(1.1); 
+  
+  } */
   body{
       background-color: rgb(17, 17, 17);
   }
