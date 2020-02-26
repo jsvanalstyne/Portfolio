@@ -453,3 +453,12 @@ p{
     height: 2.5rem; 
 
   }
+
+  .skillsBubbleBtn{
+      border: none !important;
+  }
+  img:visited {
+    color: none;
+  }
+
+  

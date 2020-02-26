@@ -38,5 +38,7 @@ $("#contactBtn").click(function() {
         'slow');
     console.log("scroll")
 });
-
+$(function () {
+    $('[data-toggle="popover"]').popover()
+  })
 
