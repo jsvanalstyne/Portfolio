@@ -456,6 +456,10 @@ p{
 
   .skillsBubbleBtn{
       border: none !important;
+      font-size: medium;
+  }
+  .popover{
+      font-size: small !important;
   }
   img:visited {
     color: none;
