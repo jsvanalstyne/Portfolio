@@ -16,19 +16,19 @@ $(window).scroll(function() {
 
 $("#aboutBtn").click(function() {
     $('html,body').animate({
-        scrollTop: $("#aboutMe").offset().top -95},
+        scrollTop: $("#aboutMe").offset().top -85},
         'slow');
     console.log("scroll")
 });
 $("#skillsBtn").click(function() {
     $('html,body').animate({
-        scrollTop: $("#skills").offset().top -100},
+        scrollTop: $("#skills").offset().top -90},
         'slow');
     console.log("scroll")
 });
 $("#portfolioBtn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top -110},
+        scrollTop: $("#portfolio").offset().top -95},
         'slow');
     console.log("scroll")
 });
